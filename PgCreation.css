@@ -1,0 +1,119 @@
+
+  .container{
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        width: 100%;
+        height: 110vh;
+        background: rgb(7,33,37);
+    background: radial-gradient(circle, rgba(7,33,37,1) 15%, rgba(16,96,112,1) 51%, rgba(10,8,38,1) 83%);
+    
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        background: rgb(7,33,37);   
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    .myName{
+       
+        width: 45%;
+        text-align: center;
+        font-size: 1.7rem;
+        margin: 10px auto;       
+    }
+    
+    .content{
+       
+        width: 40%;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 50px;
+       
+    }
+    
+    .main{
+       
+        margin: 30px auto;
+        height: 50vh; 
+        width: 90%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+    
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;  
+        
+    
+    }
+    
+    #img-div{
+       
+        width: fit-content;
+        margin: auto;
+        padding-top: 4%;
+        border-radius: 100%;  
+    }
+    
+    
+    footer{
+        text-align: center;
+    }
+    
+    #name{
+        margin-top: 6%;
+    }
+    
+    #repo{
+        color: #fff;
+    }
+    
+    #repo:hover{
+        color:rgb(221, 51, 13)
+    }
+    
+    #DayOfWeek-now, #time-now {
+        display: none;
+    }
+    
+    #DayOfWeek, #time {
+        display: block;
+    }
+    
+    
+    #btn{
+        width: 90px;
+        height: 40px;
+        background-color: rgb(7,33,37);
+        box-shadow: none;
+        border: 1px solid inherit;
+        color: white;
+    }
+    
+
+
+
+@media screen and (min-width: 300px) {
+
+    .container{
+       
+        margin: auto;
+        width: 90%;
+    }
+    .main{
+        margin: 40px auto;
+        display: flex;
+        flex-direction: column;     
+    }
+
+
+    .myName{
+        font-size: 1.2rem;           
+    }
+}
