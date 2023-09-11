@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
        
         if (dayOfWeek.style.display === "none") {
             dayOfWeek.innerText = daysOfWeek[index].toString();
-            time.innerText = now;
+            time.innerText = now.getTime();
             dayOfWeek.style.display = "block";
             time.style.display = "block";
         } else {
