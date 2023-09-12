@@ -9,23 +9,25 @@
 <body>
     <div class="container">
         <div id="img-div">
-            <img src="./img/profile.jpg" alt="mavics" data-testid="slackDisplayImage"/>
+            <img src="./img/profile.jpg" alt="mavics" data-testid="slackDisplayImage">
         </div>
 
         <div class="main">
             <div class="myName">
-                <p data-testid="Frontend">Frontend</p>
-                <h1 data-testid="mavics" id="name">Ajibade Victor</h1>        
+                <h1 data-testid="slackUserName" id="name">Ajibade Victor</h1>
+                <p data-testid="myTrack">Frontend</p>
             </div>
               
             <div class="content">
-                <button id="btn">DayTime</button>
-                <p data-testid="currentDayOfTheWeek" id="DayOfWeek-now">Monday</p>   
-                <p data-testid="currentUTCTime" id="time-now">1631130000000</p>   
+                  <h3>Current Day</h3>
+                <p data-testid="currentDayOfTheWeek" id="DayOfWeek-now"></p>
+
+                 <h3>Current Time in UTC</h3>
+                <p data-testid="currentUTCTime" id="time-now"></p>
             </div>  
         </div>
                     
-          <footer>
+        <footer>
             <!-- GitHub URL -->
             <a href="https://github.com/sojimav/HNG-FrontEnd-Task-1" data-testid="githubURL" id="repo">GitHub Repository</a>
         </footer>
@@ -33,4 +35,3 @@
     <script src="./PgCreation.js"></script>
 </body>
 </html>
-

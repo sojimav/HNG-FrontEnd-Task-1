@@ -78,9 +78,7 @@
         color:rgb(221, 51, 13)
     }
     
-    #DayOfWeek-now, #time-now {
-        display: none;
-    }
+ 
     
     #DayOfWeek, #time {
         display: block;
